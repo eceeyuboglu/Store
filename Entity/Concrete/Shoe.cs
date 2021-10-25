@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Entity.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Entity
 {
-    public class Shoe
+    public class Shoe:IEntity
     {
         public int ShoeId { get; set; }
         public int ShoeNumber { get; set; }
