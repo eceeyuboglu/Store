@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entity
+namespace Entity.Concrete
+
 {
-    public class Category
+    public class Category:IEntity
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
