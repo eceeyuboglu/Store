@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entity
+namespace Entity.Concrete
 {
-    public class Shoe
+    public class Shoe:IEntity
     {
         public int ShoeId { get; set; }
         public int ShoeNumber { get; set; }

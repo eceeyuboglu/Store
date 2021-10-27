@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entity
+namespace Entity.Concrete
+
 {
-    public class Material
+    public class Material:IEntity
     {
         public int MaterialId { get; set; }
         public string MaterialName { get; set; }
